@@ -203,9 +203,8 @@ picture {
 .stats-card__stats-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 1.7rem;
+  gap: 1.69rem;
   padding: 1.5rem;
   padding-bottom: 1rem;
 }
@@ -225,8 +224,8 @@ picture {
 .stat__name {
   color: var(--neutral-slightly-transparent-white-600);
   text-transform: uppercase;
-  font-size: 0.75rem;
-  letter-spacing: 2px;
+  font-size: 0.7rem;
+  letter-spacing: 1.9px;
 }
 
 @media (min-width: 760px) {
@@ -236,16 +235,19 @@ picture {
 
   .stats-card {
     flex-direction: row;
-    max-width: 80%;
+    max-width: 79%;
     margin: 0 auto;
     justify-content: space-between;
+    gap: 1rem;
   }
 
   .stats-card__content {
     order: unset;
     text-align: start;
-    padding: 5rem;
-    padding-bottom: 3rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4rem;
+    padding-left: 4.5rem;
+    padding-right: 5rem;
     align-items: flex-start;
     max-width: 50%;
     gap: 1.5rem;
@@ -257,7 +259,12 @@ picture {
   }
 
   .stats-card__header {
-    font-size: 2.4rem;
+    font-size: 2.25rem;
+  }
+
+  .stats-card__paragraph {
+    font-size: 15px;
+    width: 90%;
   }
 
   .stats-card__stats-container {
